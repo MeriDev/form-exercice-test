@@ -1,0 +1,85 @@
+* {
+  font-family: Helvetica, sans-serif;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #777;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: Uppercase;
+}
+fieldset {
+  border: solid 1px #aaa;
+  padding: 40px;
+}
+legend {
+  color: #555;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0 auto;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  border: solid 1px #aaa;
+  border-top: none;
+  color: #777;
+  display: block;
+  font-size: 18px;
+  font-family: Monaco, Monospace;
+  margin-bottom: 20px;
+  padding: 2%;
+  width: 96%;
+}
+
+textarea {
+  resize: none;
+}
+label {
+  background-color: #df7360;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 1px solid#df7360;
+  color: #555;
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 2%;
+  text-align: center;
+  width: 96%;
+}
+
+input[type="submit"] {
+  background: none;
+  border: none;
+  border: 1px solid #df7360;
+  border-radius: 8px;
+
+  background-image: linear-gradient(
+    45deg,
+    rgba(211, 149, 138, 0.897),
+    rgba(218, 92, 69, 0.918)
+  );
+  cursor: pointer;
+  color: rgb(61, 61, 61);
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 auto;
+  padding: 20px;
+  width: 76%;
+}
+
+input[type="submit"]:active {
+  outline-color: #eb573d;
+}
